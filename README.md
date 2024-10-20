@@ -32,8 +32,8 @@ This project is a weather monitoring and alert system that fetches real-time wea
 1. Clone the repository:
 
     bash
-    git clone https://github.com/your-username/weather-monitoring-alert-system.git
-    cd weather-monitoring-alert-system
+    git clone https://github.com/shivateja20013/weather_monitoring_application.git
+    cd weather_monitoring_application
     
 
 2. Install the required dependencies:
