@@ -31,20 +31,22 @@ This project is a weather monitoring and alert system that fetches real-time wea
 
 1. Clone the repository:
 
-    bash
+    ```bash
     git clone https://github.com/shivateja20013/weather_monitoring_application.git
     cd weather_monitoring_application
+    ```
     
 
 2. Install the required dependencies:
 
-    bash
+    ```bash
     pip install -r requirements.txt
+    ```
     
 
 3. Create a .env file in the root directory with the following variables:
-
-    ini
+```bash
+    
     API_KEY=your_openweathermap_api_key
     ALERT_THRESHOLD_TEMP=35.0  # Example: 35 degrees
     ALERT_THRESHOLD_CONSECUTIVE_UPDATES=3  # Number of updates to trigger alert
@@ -55,13 +57,14 @@ This project is a weather monitoring and alert system that fetches real-time wea
     EMAIL_PASSWORD=your_email_password
     ALERT_RECIPIENTS=recipient_email@example.com
     
-
+```
 ## Usage
 
 1. Run the weather monitoring script:
 
-    bash
+    ```bash
     python weather_monitoring.py
+    ```
     
 
 2. The system will begin fetching weather data at the specified interval, display current weather data, generate daily summaries, and send email alerts when necessary.
