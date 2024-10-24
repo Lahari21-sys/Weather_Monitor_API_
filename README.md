@@ -32,7 +32,7 @@ This project is a weather monitoring and alert system that fetches real-time wea
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/Mahammadvalluru/Weather_Monitor_API_.git
+    git clone https://github.com/Lahari21-sys/Weather_Monitor_API_.git
     cd Weather_Monitor_API_
     ```
     
